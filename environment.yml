@@ -1,0 +1,23 @@
+# conda environment for this repo which is using tensorflow version 1.14.0
+
+name: tf1-env
+channels:
+  - anaconda
+  - conda
+dependencies:
+  - python=3.7
+  - pip=20.1.1
+  - pycodestyle=2.6.0
+  - pylint=2.5.3
+  - numpy=1.19.1
+  - opencv
+  - ipython
+  - tqdm
+  - pip:
+      - pylint-quotes==0.2.1
+      - pytest-cov==2.10.0
+      - setuptools==49.5.0
+      - tensorflow==1.14.0
+      - slidingwindow
+      - scipy
+      - pycocotools
